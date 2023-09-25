@@ -22,5 +22,8 @@ This app has the following functionality:
 - JUnit 5, AssertJ, Mockito
 - Maven
 
+## Deploying guide
+    in progress...
+
 ## Further development: 
--Visualizing history of users processes and every process transitions. 
+- Visualizing history of users processes and every process transitions. 

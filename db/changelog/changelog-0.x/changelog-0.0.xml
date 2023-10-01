@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <changeSet id="add-tag-0.0" author="Igor_M">
+        <tagDatabase tag="v.0.0"/>
+    </changeSet>
+
+    <changeSet id = "create_table_categories" author="Igor_M">
+        <createTable tableName="categories">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column  name="name"  type="varchar(127)">
+                <constraints nullable="false"/>
+            </column>  
+            <column  name="description"  type="varchar(1024)"/>
+            <column name="architector_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="designed_date" type="date">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet  id="create_table_states"  author="Igor_M">  
+        <createTable  tableName="states">  
+            <column  name="id"  type="bigint"  autoIncrement="true">  
+                <constraints  primaryKey="true"  nullable="false"/>  
+            </column>  
+            <column  name="name"  type="varchar(127)">
+                <constraints nullable="false"/>
+            </column>  
+            <column  name="description"  type="varchar(1024)"/>  
+            <column  name="category_id"  type="bigint"/>
+            <column name="architector_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="designed_date" type="date">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>  
+    </changeSet>
+
+    <changeSet id="add_foreign_key_constraint_states_category_id_to_categories_id" author="Igor_M">
+        <addForeignKeyConstraint
+            constraintName="fk_category_id"
+            baseTableName="states"
+            baseColumnNames="category_id"
+            onDelete="SET NULL"
+            referencedTableName="categories"
+            referencedColumnNames="id"
+            validate="true"/>
+    </changeSet>
+
+    <changeSet id="create_table_templates" author="Igor_M">
+        <createTable tableName="templates">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(127)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="varchar(1024)"/>
+            <column name="architector_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="designed_date" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create_table_states_in_templates" author="Igor_M">
+        <createTable tableName="states_in_templates">
+            <column name="template_id" type="bigint">
+                <constraints 
+                    primaryKey="true" 
+                    nullable="false"
+                    foreignKeyName="states_in_templates_template_id_templates_id" 
+                    references="templates(id)" 
+                    deleteCascade="true"/>
+            </column>
+            <column name="state_id" type="bigint">
+                <constraints 
+                    primaryKey="true" 
+                    nullable="false"
+                    foreignKeyName="states_in_templates_state_id_states_id" 
+                    references="states(id)" 
+                    deleteCascade="true"/>
+            </column>
+            <column name="is_fast_tracked" type="boolean" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+            <column name="type" type="varchar(128)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="create_table_transitions" author="Igor_M">
+        <createTable tableName="transitions">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="template_id" type="bigint">
+                <constraints foreignKeyName="transitions_template_id_templates(id)"
+                    references="templates(id)"
+                    nullable="false"
+                    deleteCascade="true"/>
+            </column>
+            <column name="from_state_id" type="bigint">
+                <constraints foreignKeyName="transitions_from_state_id_states_id"
+                    references="states(id)"
+                    nullable="false"
+                    deleteCascade="true"/>
+            </column>
+            <column name="to_state_id" type="bigint">
+                <constraints 
+                    foreignKeyName="transitions_to_state_id_states_id"
+                    references="states(id)"
+                    nullable="false"
+                    deleteCascade="true"/>
+            </column>
+        </createTable>
+    </changeSet>  
+
+    <changeSet id="create_table_processes" author="Igor_M">
+        <createTable tableName="processes">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="object_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="owner_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="template_id" type="bigint">
+                <constraints
+                    nullable="false"/>
+            </column>
+            <column name="state_id" type="bigint">
+                <constraints 
+                    nullable="false"/>
+            </column>
+            <column name="start_date" type="date">
+                <constraints nullable="false"/>
+            </column>
+            <column name="end_date" type="date"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="add_foreign_key_constraint_processes_state_id_to_states_id" author="Igor_M">
+        <addForeignKeyConstraint
+            constraintName="fk_state_id"
+            baseTableName="processes"
+            baseColumnNames="state_id"
+            onDelete="RESTRICT"
+            referencedTableName="states"
+            referencedColumnNames="id"
+            validate="true"/>
+    </changeSet>
+
+    <changeSet id="add_foreign_key_constraint_processes_template_id_to_templates_id" author="Igor_M">
+        <addForeignKeyConstraint
+            constraintName="fk_template_id"
+            baseTableName="processes"
+            baseColumnNames="template_id"
+            onDelete="RESTRICT"
+            referencedTableName="templates"
+            referencedColumnNames="id"
+            validate="true"/>
+    </changeSet>
+
+</databaseChangeLog>

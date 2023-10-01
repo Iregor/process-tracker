@@ -1,227 +1,257 @@
-<mxfile host="app.diagrams.net" modified="2023-09-26T19:53:22.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.36" etag="l1sr39ZTDumxKUyw_JVe" version="21.8.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-09-27T19:36:00.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.43" etag="sGEXP8Xu9esjW1iqgCiM" version="21.8.2" type="device">
   <diagram name="Страница — 1" id="P6Q8UV8OXnKvYvolITT2">
-    <mxGraphModel dx="1113" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2026" dy="-50" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Перевод процесса в другое состояние&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="194" y="20" width="440" height="50" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Перевод процесса в другое состояние&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="194" y="2360" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-4" target="bAYFMiAP8ad2pt0_cThF-5">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-4" target="bAYFMiAP8ad2pt0_cThF-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-4" value="Запрос на перевод процессса в состояние" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="384" y="90" width="100" height="100" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-4" value="Запрос на перевод процессса в состояние" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="384" y="2430" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-5" value="Проверка существования процесса" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="575" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-5" value="Проверка существования процесса" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="575" y="2450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-7" target="bAYFMiAP8ad2pt0_cThF-20">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-7" target="bAYFMiAP8ad2pt0_cThF-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="775" y="340" as="targetPoint" />
+            <mxPoint x="775" y="2680" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="270" />
+              <mxPoint x="780" y="2610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-7" target="bAYFMiAP8ad2pt0_cThF-14">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-7" target="bAYFMiAP8ad2pt0_cThF-14" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="505" y="340" as="targetPoint" />
+            <mxPoint x="505" y="2680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-7" value="Новое состояние - плавающее" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
-          <mxGeometry x="560" y="220" width="150" height="90" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-7" value="Новое состояние - плавающее" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="2560" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-5" target="bAYFMiAP8ad2pt0_cThF-7">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-5" target="bAYFMiAP8ad2pt0_cThF-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-14" target="bAYFMiAP8ad2pt0_cThF-20">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-14" target="bAYFMiAP8ad2pt0_cThF-20" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="370" as="targetPoint" />
+            <mxPoint x="710" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-14" target="bAYFMiAP8ad2pt0_cThF-21">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-14" target="bAYFMiAP8ad2pt0_cThF-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="370" as="targetPoint" />
+            <mxPoint x="340" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-14" value="Существует переход от текущего состояния к новому" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
-          <mxGeometry x="400" y="325" width="150" height="90" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-14" value="Существует переход от текущего состояния к новому" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="400" y="2665" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Создание перехода между состояниями процесса&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="184" y="450" width="500" height="50" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Создание перехода между состояниями процесса&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="245" y="1190" width="500" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-20" value="Процесс в новом состоянии" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="740" y="330" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-20" value="Процесс в новом состоянии" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="740" y="2670" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-21" value="Запрос отклонен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="240" y="330" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-21" value="Запрос отклонен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="240" y="2670" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-22" target="bAYFMiAP8ad2pt0_cThF-23">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-22" target="bAYFMiAP8ad2pt0_cThF-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-22" value="Запрос на создание перехода" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="445" y="520" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-22" value="Запрос на создание перехода" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1260" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-23" target="bAYFMiAP8ad2pt0_cThF-26">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-23" target="bAYFMiAP8ad2pt0_cThF-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-23" value="Конечное состояние - промежуточное" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
-          <mxGeometry x="410" y="650" width="150" height="90" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-23" value="Второе состояние - плавающее&amp;nbsp;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="435" y="1380" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-26" value="Запрос отклонен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="635" y="770" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-26" value="Запрос отклонен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="655" y="1970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-27" target="bAYFMiAP8ad2pt0_cThF-26">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1.006;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-27" target="bAYFMiAP8ad2pt0_cThF-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="810" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.019;exitY=0.546;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-27" target="bAYFMiAP8ad2pt0_cThF-63">
-          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="655" y="1535" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="174" y="814" />
+              <mxPoint x="695" y="1546" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-27" value="Начальное состоняие - фиксированное" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
-          <mxGeometry x="240" y="765" width="150" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-23" target="bAYFMiAP8ad2pt0_cThF-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-32" value="Новый переход создан" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="135" y="1030" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Примечания:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Переход к плавающим состояния возможен из любой точки процесса.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;В базе есть ограничение на уникальную пару событий перехода.&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5" y="520" width="350" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-36" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Примечания:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;Невозможно наличие переходов от фиксированных состояний (см. процесс перехода между состояниями).&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="5" y="180" width="355" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Запуск экземпляра процесса&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1590" width="440" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-39">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-27" target="DUdvwRAWHsTU8Ydj8TC_-33" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="364" y="1720" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="555" y="1615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-39" value="Запрос на запуск экземпляра" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="214" y="1680" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-27" value="Первое состояние - конечное" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="435" y="1500" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-43" target="bAYFMiAP8ad2pt0_cThF-44">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.501;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-23" target="bAYFMiAP8ad2pt0_cThF-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-43" target="bAYFMiAP8ad2pt0_cThF-44">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-32" value="Новый переход создан" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-35" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Примечания:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Переход к плавающим состояния возможен из любой точки процесса.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;В базе есть ограничение на уникальную пару событий перехода.&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1290" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-36" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Примечания:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;Невозможно наличие переходов от фиксированных состояний (см. процесс перехода между состояниями).&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="5" y="2520" width="355" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Запуск экземпляра процесса&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="220" y="3210" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bAYFMiAP8ad2pt0_cThF-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="3340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-39" value="Запрос на запуск экземпляра" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="214" y="3300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-43" target="bAYFMiAP8ad2pt0_cThF-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-43" value="Валидация шаблона процесса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="1690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-44" value="Процесс запущен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="574" y="1680" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-46" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Валидация шаблона процесса&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="234" y="1820" width="440" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-47" target="bAYFMiAP8ad2pt0_cThF-48">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bAYFMiAP8ad2pt0_cThF-43" target="bAYFMiAP8ad2pt0_cThF-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-47" value="Состояния процесса" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1920" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-43" value="Валидация шаблона процесса" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="364" y="3310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-48" target="bAYFMiAP8ad2pt0_cThF-49">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-44" value="Процесс запущен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="574" y="3300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-46" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Валидация шаблона процесса&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="234" y="3571" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-47" target="bAYFMiAP8ad2pt0_cThF-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-48" value="Существует только одно начальное состояние" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1930" width="120" height="60" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-47" value="Состояния процесса" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="3671" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-49" target="bAYFMiAP8ad2pt0_cThF-51">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-48" target="bAYFMiAP8ad2pt0_cThF-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-49" value="Существует минимум одно конечное состояние" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1930" width="120" height="60" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-48" value="Существует только одно начальное состояние" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="3681" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-51" target="bAYFMiAP8ad2pt0_cThF-52">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-49" target="bAYFMiAP8ad2pt0_cThF-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-49" value="Существует минимум одно конечное состояние" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="3681" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-51" target="bAYFMiAP8ad2pt0_cThF-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="714" y="2030" />
-              <mxPoint x="30" y="2030" />
-              <mxPoint x="30" y="2110" />
+              <mxPoint x="714" y="3781" />
+              <mxPoint x="30" y="3781" />
+              <mxPoint x="30" y="3861" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-51" value="От любого состояния есть путь до конечного состояния" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="654" y="1930" width="120" height="60" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-51" value="От любого состояния есть путь до конечного состояния" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="654" y="3681" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-52" target="bAYFMiAP8ad2pt0_cThF-58">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-52" target="bAYFMiAP8ad2pt0_cThF-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-52" value="От начального состояния есть путь до любого состояния" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="2080" width="120" height="60" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-52" value="От начального состояния есть путь до любого состояния" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="3831" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-58" value="Шаблон валидирован" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="270" y="2070" width="80" height="80" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-58" value="Шаблон валидирован" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="270" y="3821" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-62" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Примечания:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;При непрохождении одной из проверок пользователю направляется соответствующая ошибка.&lt;/li&gt;&lt;li&gt;В API будет предусмотрен отдельный эндпоинт валидации.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Валидация в обязательном порядке выполняется при:&lt;/li&gt;&lt;/ol&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;запуске процесса&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;корректировке процесса с действующими экземплярами.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="404" y="2060" width="355" height="160" as="geometry" />
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-62" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Примечания:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li&gt;При непрохождении одной из проверок пользователю направляется соответствующая ошибка.&lt;/li&gt;&lt;li&gt;В API будет предусмотрен отдельный эндпоинт валидации.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Валидация в обязательном порядке выполняется при:&lt;/li&gt;&lt;/ol&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;запуске процесса&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;корректировке процесса с действующими экземплярами.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="414" y="3821" width="355" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-63" target="bAYFMiAP8ad2pt0_cThF-66">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-63" value="Есть экземпляры процесса" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="435" y="1740" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.997;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-63" target="bAYFMiAP8ad2pt0_cThF-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="1785" />
+            </Array>
+            <mxPoint x="465" y="1745" as="sourcePoint" />
+            <mxPoint x="695" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-72" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение типа состояния процесса&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="185" y="2850" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-73" value="Запрос на изменение типа" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="395" y="2931" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-75" target="DUdvwRAWHsTU8Ydj8TC_-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="3086" />
+              <mxPoint x="580" y="3086" />
+            </Array>
+            <mxPoint x="640" y="3160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-75" target="DUdvwRAWHsTU8Ydj8TC_-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-63" target="bAYFMiAP8ad2pt0_cThF-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="40" y="915" />
-              <mxPoint x="40" y="1070" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-75" value="Есть экземпляры процесса" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="3041" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-63" value="Есть экземпляры процесса" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
-          <mxGeometry x="100" y="870" width="150" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-66" target="bAYFMiAP8ad2pt0_cThF-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="490" y="915" />
-              <mxPoint x="490" y="1070" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-66" value="Валидация нового шаблона процесса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="885" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-72" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Изменение типа состояния процесса&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="185" y="1169" width="500" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-73" value="Запрос на изменение типа" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1250" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-75" target="bAYFMiAP8ad2pt0_cThF-79">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="1405" />
-              <mxPoint x="560" y="1510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-75" target="bAYFMiAP8ad2pt0_cThF-79">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="280" y="1405" />
-              <mxPoint x="280" y="1510" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-75" value="Есть экземпляры процесса" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
-          <mxGeometry x="360" y="1360" width="150" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-79" value="Валидация нового шаблона процесса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="374" y="1480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bAYFMiAP8ad2pt0_cThF-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bAYFMiAP8ad2pt0_cThF-73" target="bAYFMiAP8ad2pt0_cThF-75">
+        <mxCell id="bAYFMiAP8ad2pt0_cThF-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-73" target="bAYFMiAP8ad2pt0_cThF-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;Переход происходит от&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&quot;первого (state1)&quot; состояния ко &quot;второму&quot; (state2)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="565" y="1240" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;Да&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="599" y="1400" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;Да&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="593" y="1515" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;Да&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="593" y="1750" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DUdvwRAWHsTU8Ydj8TC_-5" target="bAYFMiAP8ad2pt0_cThF-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DUdvwRAWHsTU8Ydj8TC_-5" target="bAYFMiAP8ad2pt0_cThF-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-5" value="state1.id == state2.id" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="435" y="1850" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bAYFMiAP8ad2pt0_cThF-63" target="DUdvwRAWHsTU8Ydj8TC_-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;Да&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="593" y="1860" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-10" value="Запрос отклонен" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="630" y="3046" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-12" value="Присвоен новый тип" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="194" y="3046" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;Да&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="540" y="3060" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DUdvwRAWHsTU8Ydj8TC_-33" target="bAYFMiAP8ad2pt0_cThF-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-33" value="Второе состояние - начальное" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" parent="1" vertex="1">
+          <mxGeometry x="435" y="1620" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="DUdvwRAWHsTU8Ydj8TC_-33" target="bAYFMiAP8ad2pt0_cThF-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DUdvwRAWHsTU8Ydj8TC_-36" value="&lt;div style=&quot;text-align: left;&quot;&gt;Да&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="599" y="1640" width="47" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

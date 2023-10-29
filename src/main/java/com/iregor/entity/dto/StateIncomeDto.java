@@ -12,9 +12,9 @@ import javax.validation.constraints.Size;
 import java.time.LocalDateTime;
 
 @Data
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class StateIncomeDto {
     @NotNull
     @Size(min = 5)

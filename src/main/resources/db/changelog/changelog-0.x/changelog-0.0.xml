@@ -53,8 +53,7 @@
                 baseColumnNames="category_id"
                 onDelete="SET NULL"
                 referencedTableName="categories"
-                referencedColumnNames="id"
-                validate="true"/>
+                referencedColumnNames="id"/>
     </changeSet>
 
     <changeSet id="add_index_states_category_id" author="Igor_M">

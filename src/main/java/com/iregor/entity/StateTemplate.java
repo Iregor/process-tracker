@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "categories")
+@Table(name = "state_templates")
 @Getter
 @Setter
 @EqualsAndHashCode
@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 @ToString
-public class Category {
+public class StateTemplate {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -25,10 +25,13 @@ public class Category {
     @Column(name = "description")
     private String description;
 
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
+
     @Column(name = "architect_id")
     private Long architectId;
 
     @Column(name = "designed_date")
-    private LocalDateTime designedDate;
-
+    private LocalDateTime designed_date;
 }

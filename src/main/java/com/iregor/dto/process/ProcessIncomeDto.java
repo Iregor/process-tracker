@@ -1,5 +1,7 @@
-package com.iregor.entity.dto;
+package com.iregor.dto.process;
 
+import com.iregor.validation.OnCreate;
+import com.iregor.validation.OnUpdate;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -7,24 +9,25 @@ import lombok.NoArgsConstructor;
 import org.springframework.lang.Nullable;
 
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Null;
 import javax.validation.constraints.PositiveOrZero;
 import javax.validation.constraints.Size;
-import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class StateIncomeDto {
-    @NotNull
-    @Size(min = 5)
-    private String name;
+public class ProcessIncomeDto {
     @Nullable
+    @Size(min = 5, max = 500)
     private String description;
-    @Nullable
-    private Long categoryId;
+
+    @NotNull(groups = OnCreate.class)
+    @Null(groups = OnUpdate.class)
     @PositiveOrZero
-    private long architectId;
-    @NotNull
-    private LocalDateTime designed_date;
+    private Long objectId;
+
+    @Null(groups = OnCreate.class)
+    @PositiveOrZero
+    private Long stateId;
 }

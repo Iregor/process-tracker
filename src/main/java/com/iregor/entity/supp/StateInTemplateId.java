@@ -1,7 +1,7 @@
 package com.iregor.entity.supp;
 
-import com.iregor.entity.State;
-import com.iregor.entity.Template;
+import com.iregor.entity.ProcessTemplate;
+import com.iregor.entity.StateTemplate;
 import lombok.*;
 
 import javax.persistence.Embeddable;
@@ -18,8 +18,8 @@ import java.io.Serializable;
 public class StateInTemplateId implements Serializable {
     @ManyToOne
     @JoinColumn(name = "state_id")
-    private State state;
+    private StateTemplate state;
     @ManyToOne
     @JoinColumn(name = "template_id")
-    private Template template;
+    private ProcessTemplate template;
 }

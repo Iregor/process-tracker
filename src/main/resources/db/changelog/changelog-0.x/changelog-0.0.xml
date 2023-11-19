@@ -18,7 +18,7 @@
                 <constraints nullable="false"/>
             </column>
             <column name="description" type="varchar(1024)"/>
-            <column name="architector_id" type="bigint">
+            <column name="architect_id" type="bigint">
                 <constraints nullable="false"/>
             </column>
             <column name="designed_date" type="date">
@@ -27,8 +27,8 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="create_table_states" author="Igor_M">
-        <createTable tableName="states">
+    <changeSet id="create_table_state_templates" author="Igor_M">
+        <createTable tableName="state_templates">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
@@ -37,7 +37,7 @@
             </column>
             <column name="description" type="varchar(1024)"/>
             <column name="category_id" type="bigint"/>
-            <column name="architector_id" type="bigint">
+            <column name="architect_id" type="bigint">
                 <constraints nullable="false"/>
             </column>
             <column name="designed_date" type="date">
@@ -46,24 +46,24 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="add_foreign_key_constraint_states_category_id_to_categories_id" author="Igor_M">
+    <changeSet id="add_foreign_key_constraint:state_templates:category_id:categories.id" author="Igor_M">
         <addForeignKeyConstraint
                 constraintName="fk_category_id"
-                baseTableName="states"
+                baseTableName="state_templates"
                 baseColumnNames="category_id"
                 onDelete="SET NULL"
                 referencedTableName="categories"
                 referencedColumnNames="id"/>
     </changeSet>
 
-    <changeSet id="add_index_states_category_id" author="Igor_M">
-        <createIndex tableName="states" indexName="idx_states_category_id">
+    <changeSet id="add_index:state_templates:category_id" author="Igor_M">
+        <createIndex tableName="state_templates" indexName="idx:state_templates:category_id">
             <column name="category_id"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="create_table_templates" author="Igor_M">
-        <createTable tableName="templates">
+    <changeSet id="create_table:process_templates" author="Igor_M">
+        <createTable tableName="process_templates">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
@@ -71,31 +71,32 @@
                 <constraints nullable="false"/>
             </column>
             <column name="description" type="varchar(1024)"/>
-            <column name="architector_id" type="bigint">
+            <column name="architect_id" type="bigint">
                 <constraints nullable="false"/>
             </column>
-            <column name="designed_date" type="bigint">
+            <column name="designed_date" type="TIMESTAMP">
                 <constraints nullable="false"/>
             </column>
         </createTable>
     </changeSet>
 
-    <changeSet id="create_table_states_in_templates" author="Igor_M">
-        <createTable tableName="states_in_templates">
-            <column name="template_id" type="bigint">
+    <changeSet id="create_table:states" author="Igor_M">
+        <createTable tableName="states">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="process_template_id" type="bigint">
                 <constraints
-                        primaryKey="true"
                         nullable="false"
-                        foreignKeyName="states_in_templates_template_id_templates_id"
-                        references="templates(id)"
+                        foreignKeyName="states:process_template_id:process_templates.id"
+                        references="process_templates(id)"
                         deleteCascade="true"/>
             </column>
-            <column name="state_id" type="bigint">
+            <column name="state_template_id" type="bigint">
                 <constraints
-                        primaryKey="true"
                         nullable="false"
-                        foreignKeyName="states_in_templates_state_id_states_id"
-                        references="states(id)"
+                        foreignKeyName="states:state_template_id:state_templates.id"
+                        references="state_templates(id)"
                         deleteCascade="true"/>
             </column>
             <column name="is_fast_tracked" type="boolean" defaultValue="false">
@@ -107,79 +108,65 @@
         </createTable>
     </changeSet>
 
-    <changeSet id="create_table_transitions" author="Igor_M">
+    <changeSet id="create_table:transitions" author="Igor_M">
         <createTable tableName="transitions">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="template_id" type="bigint">
-                <constraints
-                        foreignKeyName="transitions_template_id_templates(id)"
-                        references="templates(id)"
-                        nullable="false"
-                        deleteCascade="true"/>
-            </column>
             <column name="from_state_id" type="bigint">
-                <constraints foreignKeyName="transitions_from_state_id_states_id"
+                <constraints foreignKeyName="transitions:from_state_id:states.id"
                              references="states(id)"
                              nullable="false"
                              deleteCascade="true"/>
             </column>
             <column name="to_state_id" type="bigint">
                 <constraints
-                        foreignKeyName="transitions_to_state_id_states_id"
+                        foreignKeyName="transitions:to_state_id:states.id"
                         references="states(id)"
                         nullable="false"
                         deleteCascade="true"/>
             </column>
+            <column name="architect_id" type="bigint">
+                <constraints nullable="false"/>
+            </column>
         </createTable>
     </changeSet>
 
-    <changeSet id="add_index_transitions_template_id" author="Igor_M">
-        <createIndex tableName="transitions" indexName="idx_transitions_template_id">
-            <column name="template_id"/>
-        </createIndex>
-    </changeSet>
-
-    <changeSet id="add_index_transitions_from_state_id" author="Igor_M">
-        <createIndex tableName="transitions" indexName="idx_transitions_from_state_id">
+    <changeSet id="add_index:transitions:from_state_id" author="Igor_M">
+        <createIndex tableName="transitions" indexName="idx:transitions:from_state_id">
             <column name="from_state_id"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="add_index_transitions_to_state_id" author="Igor_M">
-        <createIndex tableName="transitions" indexName="idx_transitions_to_state_id">
+    <changeSet id="add_index:transitions:to_state_id" author="Igor_M">
+        <createIndex tableName="transitions" indexName="idx:transitions:to_state_id">
             <column name="to_state_id"/>
         </createIndex>
     </changeSet>
 
-    <changeSet id="create_table_processes" author="Igor_M">
+    <changeSet id="create_table:processes" author="Igor_M">
         <createTable tableName="processes">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
+            <column name="description" type="varchar(500)"/>
             <column name="object_id" type="bigint">
                 <constraints nullable="false"/>
             </column>
             <column name="owner_id" type="bigint">
                 <constraints nullable="false"/>
             </column>
-            <column name="template_id" type="bigint">
-                <constraints
-                        nullable="false"/>
-            </column>
             <column name="state_id" type="bigint">
-                <constraints
-                        nullable="false"/>
-            </column>
-            <column name="start_date" type="date">
                 <constraints nullable="false"/>
             </column>
-            <column name="end_date" type="date"/>
+            <column name="start_date" type="TIMESTAMP">
+                <constraints nullable="false"/>
+            </column>
+            <column name="end_date" type="TIMESTAMP"/>
         </createTable>
     </changeSet>
 
-    <changeSet id="add_foreign_key_constraint_processes_state_id_to_states_id" author="Igor_M">
+    <changeSet id="add_foreign_key_constraint:processes:state_id:states.id" author="Igor_M">
         <addForeignKeyConstraint
                 constraintName="fk_state_id"
                 baseTableName="processes"
@@ -190,26 +177,9 @@
                 validate="true"/>
     </changeSet>
 
-    <changeSet id="add_foreign_key_constraint_processes_template_id_to_templates_id" author="Igor_M">
-        <addForeignKeyConstraint
-                constraintName="fk_template_id"
-                baseTableName="processes"
-                baseColumnNames="template_id"
-                onDelete="RESTRICT"
-                referencedTableName="templates"
-                referencedColumnNames="id"
-                validate="true"/>
-    </changeSet>
-
-    <changeSet id="add_index_processes_state_id" author="Igor_M">
-        <createIndex tableName="processes" indexName="idx_processes_state_id">
+    <changeSet id="add_index:processes:state_id" author="Igor_M">
+        <createIndex tableName="processes" indexName="idx:processes:state_id">
             <column name="state_id"/>
-        </createIndex>
-    </changeSet>
-
-    <changeSet id="add_index_processes_template_id" author="Igor_M">
-        <createIndex tableName="processes" indexName="idx_processes_template_id">
-            <column name="template_id"/>
         </createIndex>
     </changeSet>
 

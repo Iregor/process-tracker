@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProcessTrackerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProcessTrackerApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(ProcessTrackerApplication.class, args);
+    }
 }
